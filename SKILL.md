@@ -1,6 +1,8 @@
 ---
 name: socratic-talk
 description: Engage in a Socratic dialogue where Claude asks probing questions to explore your ideas deeply and naturally, uncovering assumptions and implications without being contrarian. The dialogue is exactly 3 exchanges long and ends with the conversation automatically saved as a markdown file.
+metadata:
+  version: "1.0.0"
 ---
 
 # Socratic Talk Skill
