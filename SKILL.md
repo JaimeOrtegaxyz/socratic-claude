@@ -88,7 +88,7 @@ When the dialogue ends:
 1. **Confirm ending**: Briefly acknowledge that the dialogue has concluded
 2. **Save automatically**: Format and save the complete dialogue as a markdown file
 3. **File location**: Save to the current working directory
-4. **File naming**: Use format `Socratic Talk - [Topic].md`
+4. **File naming**: Use format `YYYYMMDDHHmmss-socraticclaude-[topic].md` where YYYYMMDDHHmmss is the current timestamp (year, month, day, hour, minute, second)
 5. **File format**:
 
 ```markdown
@@ -106,14 +106,13 @@ Claude: [response]
 
 ---
 
-**Date**: [YYYY-MM-DD]
-**Duration**: [X exchanges]
 **Topic**: [Concise topic description]
+**Date**: [Verbal date format expressing when the dialogue took place - use natural language like "late October, 2025" or "early December, 2025" or "mid-November, 2025". Express the timing in the way that feels most natural and intuitive for human understanding]
 ```
 
 - Use "Jaime:" and "Claude:" labels for each speaker
 - No summary or analysis—just the pure dialogue
-- Include metadata at the end (date, number of exchanges, topic)
+- Include metadata at the end (topic and date in verbal format)
 - Keep it clean and readable
 
 ## Key Principles
